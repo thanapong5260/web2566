@@ -2,6 +2,7 @@
   <head>
     <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
     <script src="https://rawgit.com/mayognaise/aframe-gif-shader/master/dist/aframe-gif-shader.min.js"></script>
+
   </head>
   <body>
     <a-scene>
@@ -19,18 +20,18 @@
       <a-camera>
         <a-cursor></a-cursor>
       </a-camera>
-      <a-gif position="0 0 0" 
+      <a-image position="0 0 0" 
          width="1" height="1"
          animation="property: position; to: 0 1 -5; dur: 2000; easing: linear" 
          animation__2="property: rotation; to: 0 360 0; dur: 5000; loop: true;" 
          src="#tooth"
-      ></a-gif>
+      ></a-image>
 
-      <a-gif position="-10 0.75 -10" color="#FFC65D"
+      <a-image position="-10 0.75 -10" color="#FFC65D"
          animation="property: position; to: 2 1 1; dur: 10000; easing: linear; loop: true;"
          animation__2="property: rotation; to: 0 90 90; dur: 500; loop: true;" 
          src="#tooth"
-      ></a-gif>  
+      ></a-image>  
     </a-scene>
   </body>
 </html>
