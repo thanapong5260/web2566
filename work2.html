@@ -1,6 +1,7 @@
 <html>
   <head>
     <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    <script src="https://cdn.rawgit.com/mayognaise/aframe-gif-component/v0.2.1/dist/aframe-gif-component.min.js"></script>
 
   </head>
   <body>
@@ -29,7 +30,7 @@
       <a-box position="-10 0.75 -10" color="#FFC65D"
             animation="property: position; to: 2 1 1; dur: 10000; easing: linear; loop: true;"
             animation__2="property: rotation; to: 0 90 90; dur: 500; loop: true;" 
-            src="#tooth"
+            <a-gif src="#tooth"></a-gif>
       ></a-box>   
     </a-scene>
   </body>
