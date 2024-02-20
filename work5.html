@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Work5 Hello World Face App</title>
+    <style>
+        .container {
+            width: 100%;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .text,.clip {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        img {
+            width: 250px;
+            height: 600px;
+        }
+
+        video {
+            max-width: calc(100% - 200px);
+            height: auto;
+        }
+
+        p {
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Work5 Hello World Face App</h1>
+    <div class="container">
+        <div class="text">
+            <h2>รูปภาพตัวอย่างหน้าจอ</h2>
+            <h2>Video ตัวอย่าง</h2>
+        </div>
+        <div class="clip">
+            <img src="asset/work5.jpg" alt="">
+
+            <video controls>
+                <source src="work5/clip-work5.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+
+	<div data-snack-id="@thanapong5260/work5" data-snack-platform="mydevice" 
+		data-snack-preview="true" data-snack-theme="light" 
+		style="overflow:hidden;background:#fbfcfd;border:1px solid var(--color-border);border-radius:4px;height:505px;width:100%"></div>
+	<script async src="https://snack.expo.dev/embed.js"></script>
+
+</body>
+
+</html>
